@@ -12,7 +12,7 @@ export default function DiscordMessage({
 	children
 }: PropsWithChildren<DiscordMessageProps>) {
 	return (
-		<div className="mt-4 flex items-center gap-2 bg-[#36393f] text-white p-4 rounded">
+		<div className="mt-4 flex items-center gap-2 bg-[#36393f] text-white p-4 rounded-lg">
 			<Image
 				src={img}
 				alt={`${name}'s avatar`}
