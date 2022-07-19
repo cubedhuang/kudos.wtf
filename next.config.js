@@ -1,7 +1,18 @@
-/** @type {import('next').NextConfig} */
-const nextConfig = {
-  reactStrictMode: true,
-  swcMinify: true,
-}
+const withPreact = require("next-plugin-preact");
 
-module.exports = nextConfig
+/** @type {import("next").NextConfig} */
+const nextConfig = {
+	i18n: {
+		locales: ["en"],
+		defaultLocale: "en"
+	},
+	reactStrictMode: true,
+	swcMinify: true,
+	experimental: {
+		images: {
+			allowFutureImage: true
+		}
+	}
+};
+
+module.exports = withPreact(nextConfig);

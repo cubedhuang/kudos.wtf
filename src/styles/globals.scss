@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Mali:wght@600&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+	body {
+		@apply bg-[#f7f0e5];
+	}
+
+	p {
+		@apply mt-4;
+	}
+
+	@media (prefers-contrast: more) {
+		main {
+			color: black !important;
+		}
+	}
+}
+
+@layer components {
+	.hero {
+		background: linear-gradient(135deg, #ef7387, #e74c3c);
+		mask: linear-gradient(red 0 0) top / 100% calc(100% - 40px) no-repeat,
+			conic-gradient(
+					from -45deg at bottom,
+					#0000,
+					#000 1deg 89deg,
+					#0000 90deg
+				)
+				bottom / 80px 40px repeat-x;
+	}
+
+	.heading {
+		@apply font-heading font-bold tracking-tight text-[#ff7675];
+	}
+
+	@media (prefers-reduced-motion: reduce) {
+		*,
+		::before,
+		::after {
+			animation-delay: -1ms !important;
+			animation-duration: 1ms !important;
+			animation-iteration-count: 1 !important;
+			background-attachment: initial !important;
+			scroll-behavior: auto !important;
+			transition-duration: 0s !important;
+			transition-delay: 0s !important;
+		}
+	}
+
+	.fade-in {
+		animation-name: fade;
+		animation-duration: 1s;
+		animation-fill-mode: both;
+		animation-timing-function: cubic-bezier(0.26, 1.34, 0.62, 0.93);
+		animation-delay: 0.5s;
+	}
+
+	// @for $i from 1 through 20 {
+	// 	.fade-in > :nth-child(#{$i}) {
+	// 		animation-delay: #{$i / 10}s;
+	// 	}
+	// }
+
+	@keyframes fade {
+		0% {
+			opacity: 0;
+			transform: translateY(1rem);
+		}
+		100% {
+			opacity: 1;
+			transform: translateY(0);
+		}
+	}
+}
