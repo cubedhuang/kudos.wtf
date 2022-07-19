@@ -276,6 +276,37 @@ export default function Home() {
 						by Blake Martin.
 					</p>
 				</main>
+
+				<footer className="text-white">
+					<div className="max-w-prose mx-auto px-8 py-4 font-body font-semibold gap-8 text-lg sm:text-xl">
+						<p className="text-sm mt-0">
+							Made by Daniel Huang. Thanks lot to Abigail for
+							letting me use text from{" "}
+							<a
+								href="https://docs.google.com/presentation/d/1B4SdbRR7L3H_9NylMKW1nvuGeKEBISm1zUpzS4cVqJM/edit#slide=id.g12036086716_0_307"
+								target="_blank"
+								rel="noopener noreferrer"
+								className="border-b border-b-white hover:border-b-transparent hover:opacity-80 transition"
+							>
+								her slides
+							</a>
+							!
+						</p>
+						<p className="text-sm mt-2">
+							This site is open source! You can find the source
+							code on{" "}
+							<a
+								href="https://github.com/cubedhuang/kudos.wtf"
+								target="_blank"
+								rel="noopener noreferrer"
+								className="border-b border-b-white hover:border-b-transparent hover:opacity-80 transition"
+							>
+								GitHub
+							</a>
+							.
+						</p>
+					</div>
+				</footer>
 			</div>
 		</>
 	);
