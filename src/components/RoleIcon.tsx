@@ -1,12 +1,20 @@
-import ImageLink from "./ImageLink";
+import Image from "next/future/image";
 
 export default function RoleIcon({ src }: { src: string }) {
 	return (
-		<ImageLink
-			src={src}
-			width={24}
-			height={24}
-			className="align-text-bottom inline-block drop-shadow-md cursor-pointer"
-		/>
+		<a
+			href={src}
+			target="_blank"
+			rel="noopener noreferrer"
+			className="contents"
+		>
+			<Image
+				src={src}
+				alt=""
+				width={24}
+				height={24}
+				className="align-text-bottom inline-block drop-shadow-md cursor-pointer"
+			/>
+		</a>
 	);
 }

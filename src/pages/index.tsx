@@ -39,6 +39,7 @@ export default function Home() {
 
 					<Image
 						src="/images/no.webp"
+						alt="No kudos meme"
 						width={256}
 						height={256}
 						className="w-full sm:w-auto sm:float-right sm:ml-4 sm:mb-4 mt-4 sm:mt-8 rounded-lg"
@@ -182,12 +183,12 @@ export default function Home() {
 						</li>
 						<li>
 							You can only give kudos to one user at a time, so
-							mentioning multiple people won't work.
+							mentioning multiple people won&apos;t work.
 						</li>
 						<li>Students can only give five kudos per week.</li>
 						<li>
 							If a student gives out a kudo, it does NOT subtract
-							from the number of kudos they've received.
+							from the number of kudos they&apos;ve received.
 						</li>
 					</ul>
 
@@ -228,6 +229,7 @@ export default function Home() {
 
 					<Image
 						src="/images/skew.png"
+						alt="Graph of the skewed distribution"
 						width={398}
 						height={262}
 						className="w-full sm:w-72 sm:float-right sm:ml-4 sm:mb-4 mt-4 rounded-lg"

@@ -15,6 +15,7 @@ export default function DiscordMessage({
 		<div className="mt-4 flex items-center gap-2 bg-[#36393f] text-white p-4 rounded">
 			<Image
 				src={img}
+				alt={`${name}'s avatar`}
 				width={56}
 				height={56}
 				className="w-14 h-14 rounded-full"
