@@ -5,6 +5,10 @@
 @tailwind utilities;
 
 @layer base {
+	html {
+		@apply scroll-smooth scroll-pt-12;
+	}
+
 	body {
 		@apply bg-[#f7f0e5];
 	}

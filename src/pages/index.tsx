@@ -71,9 +71,9 @@ export default function Home() {
 						take anything too seriously!
 					</p>
 
-					<h2 className="heading text-6xl mt-12">
+					<Heading id="earn">
 						What can I earn with Camper Kudos?
-					</h2>
+					</Heading>
 
 					<p>
 						As you gain kudos, you can unlock roles on the Discord
@@ -154,9 +154,9 @@ export default function Home() {
 						hard, and your efforts will not go unnoticed!
 					</p>
 
-					<h2 className="heading text-6xl mt-12">
+					<Heading id="interaction">
 						How do I interact with Kudos?
-					</h2>
+					</Heading>
 
 					<p>
 						There are a few commands you can use in the{" "}
@@ -216,7 +216,7 @@ export default function Home() {
 						to see your own score and kudo count.
 					</p>
 
-					<h2 className="heading text-6xl mt-12">Adjusted Scores</h2>
+					<Heading id="adjusting">Adjusted Scores</Heading>
 
 					<p>
 						A large issue with the past Camper Kudos system was that
