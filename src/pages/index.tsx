@@ -1,3 +1,4 @@
+import { ExternalLinkIcon } from "@heroicons/react/solid";
 import Image from "next/future/image";
 import Head from "next/head";
 
@@ -269,9 +270,10 @@ export default function Home() {
 							href="https://rb.gy/lf9rkc"
 							target="_blank"
 							rel="noopener noreferrer"
-							className="inline-block text-blue-500 relative transition hover:opacity-80 after:absolute after:bottom-0 after:w-full after:left-0 after:bg-blue-500 after:h-0.5 after:rounded after:scale-x-0 hover:after:scale-x-100 after:transition after:origin-right hover:after:origin-left"
+							className="inline-flex items-center text-blue-500 relative transition hover:opacity-80 after:absolute after:bottom-0 after:w-full after:left-0 after:bg-blue-500 after:h-0.5 after:rounded after:scale-x-0 hover:after:scale-x-100 after:transition after:origin-right hover:after:origin-left"
 						>
-							Google slides document
+							Google slides document{" "}
+							<ExternalLinkIcon className="inline-block w-6 h-6 ml-1" />
 						</a>{" "}
 						by Blake Martin.
 					</p>
