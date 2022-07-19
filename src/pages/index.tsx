@@ -55,10 +55,10 @@ export default function Home() {
 					</p>
 					<p>
 						Students can give out kudos too! They can give out up to
-						5 per week, totalling 15 over 3 week batch, and students
-						who give out all 5 kudos are given a bonus kudo for
-						their engagement! And no, you can&apos;t give yourself
-						kudos. We&apos;ve tried.
+						5 per week, totalling 15 over a 3 week batch, and
+						students who give out all 5 kudos are given a bonus kudo
+						for their engagement! And no, you can&apos;t give
+						yourself kudos. We&apos;ve tried.
 					</p>
 					<p>
 						Kudos don&apos;t do anything on their own, but as you
