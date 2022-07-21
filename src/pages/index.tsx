@@ -102,7 +102,9 @@ export default function Home() {
 							</span>{" "}
 							+ <RoleIcon src="/images/ie.webp" /> icon +
 							permissions to send images in{" "}
-							<DiscordBox>#general</DiscordBox>
+							<DiscordBox href="https://discord.com/channels/789598759952711680/789598759952711683">
+								#general
+							</DiscordBox>
 						</li>
 						<li>
 							35 Kudos &ndash;{" "}
@@ -161,8 +163,10 @@ export default function Home() {
 
 					<p>
 						There are a few commands you can use in the{" "}
-						<DiscordBox>#camper-kudos</DiscordBox> channel on the
-						Discord server:
+						<DiscordBox href="https://discord.com/channels/789598759952711680/976934761056567317">
+							#camper-kudos
+						</DiscordBox>{" "}
+						channel on the Discord server:
 					</p>
 
 					<DiscordMessage img="/images/dh.webp" name="Daniel Huang">
