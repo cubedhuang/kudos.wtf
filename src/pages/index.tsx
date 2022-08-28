@@ -271,7 +271,7 @@ export default function Home() {
 						More information about the reasoning behind this can be
 						found at this{" "}
 						<a
-							href="https://rb.gy/lf9rkc"
+							href="https://docs.google.com/presentation/d/1f_uP1_d3duuoTEmI4qrwv6ihGPSzgZ_8HG2Ni49iVY0/edit"
 							target="_blank"
 							rel="noopener noreferrer"
 							className="inline-flex items-center text-blue-500 relative transition hover:opacity-80 after:absolute after:bottom-0 after:w-full after:left-0 after:bg-blue-500 after:h-0.5 after:rounded after:scale-x-0 hover:after:scale-x-100 after:transition after:origin-right hover:after:origin-left"
@@ -289,7 +289,7 @@ export default function Home() {
 							Made by Daniel Huang. Thanks lot to Abigail for
 							letting me use text from{" "}
 							<a
-								href="https://docs.google.com/presentation/d/1B4SdbRR7L3H_9NylMKW1nvuGeKEBISm1zUpzS4cVqJM/edit#slide=id.g12036086716_0_307"
+								href="https://docs.google.com/presentation/d/1B4SdbRR7L3H_9NylMKW1nvuGeKEBISm1zUpzS4cVqJM/edit"
 								target="_blank"
 								rel="noopener noreferrer"
 								className="border-b border-b-white hover:border-b-transparent hover:opacity-80 transition"
