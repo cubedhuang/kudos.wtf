@@ -74,7 +74,7 @@ export default function Home() {
 					<p>
 						As you gain kudos, you can unlock roles on the Discord
 						server along with a few other cosmetics. Here&apos;s a
-						list of some of the roles you can earn:
+						list of the roles you can earn:
 					</p>
 
 					<ul className="mt-4 -indent-8 ml-8">
