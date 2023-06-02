@@ -13,7 +13,7 @@ export default function RoleIcon({ src }: { src: string }) {
 				alt=""
 				width={24}
 				height={24}
-				className="align-text-bottom inline-block drop-shadow-md cursor-pointer"
+				className="inline-block drop-shadow-md cursor-pointer -translate-y-0.5"
 			/>
 		</a>
 	);

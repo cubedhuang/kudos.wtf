@@ -11,16 +11,13 @@ export default function Home() {
 	return (
 		<>
 			<Head>
-				<title>Camper Kudos?!</title>
+				<title>Kudos?!</title>
 
-				<meta name="description" content="Camper Kudos, explained." />
-				<meta name="keywords" content="camper, kudos, camper kudos" />
+				<meta name="description" content="Kudos, explained." />
+				<meta name="keywords" content="kudos, camper kudos, ai camp" />
 
-				<meta property="og:title" content="Camper Kudos?!" />
-				<meta
-					property="og:description"
-					content="Camper Kudos, explained."
-				/>
+				<meta property="og:title" content="Kudos?!" />
+				<meta property="og:description" content="Kudos, explained." />
 				<meta property="og:url" content="https://kudos.wtf/" />
 				<meta
 					property="og:image"
@@ -31,12 +28,12 @@ export default function Home() {
 			<div className="text-slate-800">
 				<div className="hero">
 					<h1 className="heading text-white text-8xl sm:text-9xl px-8 pt-20 md:pt-32 pb-24 md:pb-40 text-center">
-						Camper Kudos?!
+						Kudos?!
 					</h1>
 				</div>
 
 				<main className="fade-in max-w-prose mx-auto px-8 pt-10 pb-24 font-body font-semibold gap-8 text-lg sm:text-xl">
-					<Heading id="what">What are Camper Kudos?</Heading>
+					<Heading id="what">What are Kudos?</Heading>
 
 					<Image
 						src="/images/no.webp"
@@ -48,18 +45,18 @@ export default function Home() {
 					/>
 
 					<p>
-						Camper Kudos are points primarily given out by
-						instructors and teachers at AI Camp that mark
-						participation and achievement by campers! They are used
-						to incentivize students to go above and beyond during
-						their time in camp!
+						Kudos are points you can earn from instructors, teachers
+						and fellow students at AI Camp that mark participation
+						and achievement by campers! They are used to incentivize
+						students to go above and beyond during their time in
+						camp.
 					</p>
 					<p>
-						Students can give out kudos too! They can give out up to
-						5 per week, totalling 15 over a 3 week batch, and
-						students who give out all 5 kudos are given a bonus kudo
-						for their engagement! And no, you can&apos;t give
-						yourself kudos. We&apos;ve tried.
+						Students can give out up to 5 kudos each week, totalling
+						15 over a 3 week batch. Students who give out all 5
+						kudos are given a bonus kudo for their engagement! And
+						no, you can&apos;t give yourself kudos. We&apos;ve
+						tried.
 					</p>
 					<p>
 						Kudos don&apos;t do anything on their own, but as you
@@ -72,9 +69,7 @@ export default function Home() {
 						take anything too seriously!
 					</p>
 
-					<Heading id="earn">
-						What can I earn with Camper Kudos?
-					</Heading>
+					<Heading id="earn">What can I earn with Kudos?</Heading>
 
 					<p>
 						As you gain kudos, you can unlock roles on the Discord
@@ -86,70 +81,60 @@ export default function Home() {
 						<li>
 							5 Kudos &ndash;{" "}
 							<span className="text-[#9f450b]">
-								star-camper role
-							</span>
+								Scratch Slanger
+							</span>{" "}
+							<RoleIcon src="/images/scratch.webp" />
 						</li>
 						<li>
 							10 Kudos &ndash;{" "}
-							<span className="text-[#f1c40f]">
-								elite-camper role
-							</span>
+							<span className="text-[#f1c40f]">Cobol Coder</span>{" "}
+							<RoleIcon src="/images/cobol.webp" />
 						</li>
 						<li>
-							20 Kudos &ndash;{" "}
+							25 Kudos &ndash;{" "}
 							<span className="text-[#4aa9f7]">
-								master-camper role
+								Python Purveyor
 							</span>{" "}
-							+ <RoleIcon src="/images/ie.webp" /> icon +
-							permissions to send images in{" "}
+							<RoleIcon src="/images/python.webp" /> + permissions
+							to send images in{" "}
 							<DiscordBox href="https://discord.com/channels/789598759952711680/789598759952711683">
 								#general
 							</DiscordBox>
 						</li>
 						<li>
-							35 Kudos &ndash;{" "}
-							<span className="text-[#ec0000]">
-								enlightened-camper role
-							</span>
-						</li>
-						<li>
 							50 Kudos &ndash;{" "}
-							<span className="text-[#2ecc71]">
-								prestige-camper role
-							</span>
+							<span className="text-[#ec0000]">
+								GoLang Getter
+							</span>{" "}
+							<RoleIcon src="/images/go.webp" />
 						</li>
 						<li>
 							75 Kudos &ndash;{" "}
-							<span className="text-[#624533]">
-								java-lover role
+							<span className="text-[#2ecc71]">
+								Typescript Tabulator
 							</span>{" "}
-							+ <RoleIcon src="/images/java.webp" /> icon
+							<RoleIcon src="/images/ts.webp" />
 						</li>
 						<li>
 							100 Kudos &ndash;{" "}
-							<span className="text-[#ff00b8]">
-								we-should-hire-you role
-							</span>
+							<span className="text-[#624533]">Java Juicer</span>{" "}
+							<RoleIcon src="/images/java.webp" />
+						</li>
+						<li>
+							200 Kudos &ndash;{" "}
+							<span className="text-[#ff00b8]">Rustacean</span>{" "}
+							<RoleIcon src="/images/rust.webp" />
 						</li>
 					</ul>
 
 					<p>
-						The roles listed don&apos;t mean anything or guarantee
-						anything. Amassing 100 kudos and earning the{" "}
-						<span className="text-[#ff00b8]">
-							we-should-hire-you role
-						</span>{" "}
-						does NOT guarantee that you will be offered a position
-						on Team Tomorrow &ndash; it&apos;s just for fun!
-					</p>
-					<p>
 						While nothing is guaranteed, getting kudos can indicate
-						that you may be a good fit for Team Tomorrow, and they
-						show that you work hard and are dedicated. Those who
-						show an aptitude for learning, contribute ideas
-						frequently, and are shown to put a genuine effort into
-						everything they do in, and outside of camp are the
-						people who will be considered for a position.
+						that you may be a good fit for Team Tomorrow, showing
+						that you&apos;re dedicated and work hard. Those who show
+						an aptitude for learning, contribute ideas frequently,
+						and are shown to put a genuine effort into everything
+						they do in and outside of camp are the people who will
+						be considered for a position.
 					</p>
 					<p>
 						Do not let this discourage you from making an effort!
@@ -163,15 +148,15 @@ export default function Home() {
 
 					<p>
 						There are a few commands you can use in the{" "}
-						<DiscordBox href="https://discord.com/channels/789598759952711680/976934761056567317">
-							#camper-kudos
+						<DiscordBox href="https://discord.com/channels/789598759952711680/934892476437778442">
+							#kudos
 						</DiscordBox>{" "}
 						channel on the Discord server:
 					</p>
 
 					<DiscordMessage img="/images/dh.webp" name="Daniel Huang">
-						$ck <DiscordBox>@Abigail Smith</DiscordBox> for being
-						cool
+						/kudo give <DiscordBox>@Abigail Smith</DiscordBox> for
+						being cool
 					</DiscordMessage>
 
 					<p>
@@ -198,7 +183,7 @@ export default function Home() {
 					</ul>
 
 					<DiscordMessage img="/images/ta.webp" name="Autumn Fisk">
-						$cks
+						/kudo board
 					</DiscordMessage>
 
 					<p>
@@ -211,20 +196,20 @@ export default function Home() {
 						img="/images/abby.webp"
 						name="Abigail Smith"
 					>
-						$cks <DiscordBox>@Autumn Fisk</DiscordBox>
+						/kudo for <DiscordBox>@Autumn Fisk</DiscordBox>
 					</DiscordMessage>
 
 					<p>
-						This command can be run by anyone, and it display&apos;s
-						a student&apos;s adjusted score as well the number of
-						kudos they have received. You can also mention yourself
-						to see your own score and kudo count.
+						This command can be run by anyone, and it displays a
+						student&apos;s adjusted score as well the number of
+						kudos they have received. You can also omit the mention
+						at the end to see your own score.
 					</p>
 
 					<Heading id="adjusting">Adjusted Scores</Heading>
 
 					<p>
-						A large issue with the past Camper Kudos system was that
+						A large issue with the past Kudos system was that
 						instructors varied in the number of kudos they gave out
 						to their students. This led to a skew where many
 						students received more kudos than others simply because

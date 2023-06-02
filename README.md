@@ -1,3 +1,3 @@
 ## kudos.wtf
 
-Camper Kudos, explained.
+Kudos, explained.
